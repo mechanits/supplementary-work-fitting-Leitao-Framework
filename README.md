@@ -27,8 +27,11 @@ the minimization algorithm, and the parameters we use in it.  The bootstrap (100
 
   from analysis_SNIS_IBNET import LogNormalAnalysis
   analysis = LogNormalAnalysis('brazil_sewerN', required_successes=24)
+  
   analysis.beta[0]
+
   analysis.p_value
+
   analysis.bic
 
 Results
